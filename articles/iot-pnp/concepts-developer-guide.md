@@ -125,7 +125,7 @@ Use asynchronous commands for long-running operations. The device sends progress
 - `iothub-command-name`: the command name, for example `UpdateFirmware`.
 - `iothub-command-request-id`: the request ID generated on the server side and sent to the device in the initial call.
 - `iothub-interface-id`:  The ID of the interface this command is defined on, for example `urn:example:AssetTracker:1`.
- `iothub-interface-name`: the instance name of this interface, for example `myAssetTracker`.
+- `iothub-interface-name`: the instance name of this interface, for example `myAssetTracker`.
 - `iothub-command-statuscode`: the status code returned from the device, for example `202`.
 
 ## Register a device
